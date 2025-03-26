@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- Vai mostrar para o navegador que esta usando uma versão do html5 -->
+
+<html lang="pt-br"> <!-- vai abrir o html com a lingua portuguesa -->
+
+   <head> <!--Cabeçalho do projeto -->
+
+      <meta charset="UTF-8">
+
+      <!--Link do favicon vai dentro do cabeçalho do projetos-->
+      <!--href é o caminho da imagem,todo href geralmente ou é o caminho do link que vc esta chamando ou caminho da imagem que eu preciso adicionar -->
+      <!--type ="image/x-icon" tipo da imagem é uma imagem /icone -->
+      <link rel="shortcut icon" href="/img/Imagem.PNG" type="image/x-icon">
+      <title>
+        Currículo Html
+      </title>
+   </head> <!--Fim do cabeçalho do projeto -->
+
+   <body> <!-- Corpo do projeto , tudo que coloca aqui vai ser renderizado pelo navegador, ou seja, será mostrado no navegador-->
+      <header>
+        <h1>André Luis de Farias Baptista</h1> <!-- Só pode usar um h1 por página -->
+        <h5>Avenida Perimetral, 303 | Guaíba | Rio Grande do Sul, 92.704.715 | +55(51)98126-9497 | andrevagas1@gmail.com</h5><!-- h2,h3,h4,h5,h6 pode usar quantas vezes quiser na página -->
+      </header> 
+
+     <main>
+       <section> 
+          <!-- PODEMOS DIVIDIR ESSA ESTRUTURA que é o BODY EM TAGS SEMANTICAS, ESSAS TAGS SEMANTICAS É O HEADER(Que é o cabeçalho da página que vai ser exibida, ou seja título da pagina)-->
+          <!-- Tudo que tiver em relação a logotipo, título,nav sera feito dentro do header -->  
+
+          <header> 
+              <h2>Objetivo</h2> <!--SO PODE USAR UM H1 por página -->
+         
+              <p>Procuro retornar na área de desenvolvimento de software,com a ideia de contribuir para projetos.
+                 E com isso me desenvolver profissionalmente na área e adquirir mais experiência. 
+              </p>
+           </header>
+        </section> 
+
+
+         <!-- TAG MAIN tudo que tiver de conteudo principal no site, quer criar uma seção de imagens, com videos,toda estrutura vai dentro do body e o main é o conteudo principal do site -->
+         <!--<main>-->
+         <!--Dentro do main posso ter diversas seções como:a tag section, aside,article que é tag para artigos,div que é tag container,posso ter uma header dentro do main que é
+         um cabeçalho do conteudo principal  -->
+
+      
+
+         <!--P É UMA TAG PARA DIGITAR PARAGRAFO ...-->
+       <section>
+          <h2> Formação</h2> 
+          <ul>
+             <li>Alcides Maya,Porto Alegre,Rio Grande do Sul,Ensino Técnico de TI, 03/2015 - 03/2017</li>
+             <li>Ulbra,Guaíba,Rio Grande do Sul,Superior em Sistemas de Informação, 06/19 - 06/23</li>
+          </ul>  
+       </section>
+
+       <section>
+          <header> <!--ESSE É UM TÍTULO VAI DENTRO DO header -->
+             <h2>Experiência</h2>
+             <ol> 
+                <li><h5>06/2023 até o momento</h5></li>
+                <h5>Analista de Suporte Técnico N2,Central IT,Porto Alegre</h5>
+                <h5>Suporte a usuários local e remotamente</h5> 
+                <li><h5>10/2020 - 03/2022</h5></li>  
+                <h5>Suporte técnico ao Usuário,Interop,Porto Alegre</h5>
+                <h5>Suporte a usuários,manutenção de computadores</h5>
+             </ol> 
+          </header>
+       </section> 
+
+       <section>
+           <header>
+             <h2>Prêmios e reconhecimentos</h2> 
+             <p>Considerado um funcionário que gosta de ajudar a equipe, e vontade de aprender para se desenvolver mais na área.</p>
+           </header>
+       </section>      
+    </main>     
+
+   </body> <!-- Fim do corpo do projeto -->
+
+</html>
